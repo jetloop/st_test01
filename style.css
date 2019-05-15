@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+Theme Name: Marco Default Theme
+Theme URI: Marco
+Author: Marco
+Description: Marco Default Theme
+Version: 1.0
+*/
+
+/*-------------------------------
+Reset
+-------------------------------*/
+html { box-sizing: border-box; }
+* { box-sizing: inherit; }
+*:before, *:after { box-sizing: inherit; }
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, var, b, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, sub { margin:0; padding:0; border:0; outline:0; vertical-align:baseline; }
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section { display:block; }
+ol, ul{ list-style: none; }
+blockquote, q {	quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+a {	margin:0;	padding:0; font-size:100%; vertical-align:baseline; }
+del {	text-decoration: line-through; }
+/*IEではデフォルトで点線を下線表示する設定ではないので、下線がつくようにしています
+また、マウスオーバー時にヘルプカーソルの表示が出るようにしています*/
+abbr[title], dfn[title] {	border-bottom:1px dotted;	cursor:help; }
+table {	border-collapse:collapse;	border-spacing:0;	font-size: 100%; }
+hr { display:block;	height:1px;	border:0;	border-top:1px solid #cccccc;	margin:1em 0;	padding:0; }
+/*縦方向の揃え位置を中央揃えに指定しています*/
+input, select { vertical-align: 0; }
+input, textarea { margin: 0; font-size: 100%;	width: 100%; }
+img { max-width: 100%; height:auto;	vertical-align:bottom; font-size:0;	line-height: 0;	border: 0; }
+object, embed, video { max-width: 100%; }
+address, caption, cite, code, dfn, em, th, var{	font-style: normal;	font-weight: normal; }
+h1, h2, h3, h4, h5, h6{ font-size: 100%; font-weight: normal; }
